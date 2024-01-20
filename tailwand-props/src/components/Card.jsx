@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({username,btnText = "View Profile"}) {
+function Card({username, btnText = "View Profile"}) {
   
   return (
 <div className="relative h-[400px] w-[300px] rounded-md">

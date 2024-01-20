@@ -32,7 +32,10 @@
  ### App.jsx is Main File where we can write our code.
 
  ### main.jsx is Entry point of our application, it will render our component to HTML tag
+ # Hooks in React 
+ ![Hooks in React](https://github.com/AliGates915/React-Basic-Projects/assets/128673394/28246b78-f007-4fc8-8466-292de28444e8)
 
+<<<<<<< HEAD
  # 2.Hooks in React 
  ![Hooks in React](https://github.com/AliGates915/React-Basic-Projects/assets/128673394/28246b78-f007-4fc8-8466-292de28444e8)
 
@@ -69,3 +72,5 @@ export default function App() {
   )
 }
 ```
+=======
+>>>>>>> origin/main
