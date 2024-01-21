@@ -75,5 +75,4 @@ export default function App() {
 
 # 4. Background Changer with React
 
-=======
 https://github.com/AliGates915/React-Basic-Projects/blob/main/Background%20Changer%20with%20React.png
