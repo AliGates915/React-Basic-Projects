@@ -71,6 +71,9 @@ export default function App() {
   )
 }
 ```
+<<<<<<< HEAD
 
 # 4. Background Changer with React
 
+=======
+>>>>>>> 8d430db5cfb8893bcf841511d10bd36ab05beb56
