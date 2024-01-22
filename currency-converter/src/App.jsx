@@ -76,15 +76,14 @@ function App() {
           rounded-lg text-xl ">Convert {from.toUpperCase()} to {to.toUpperCase()}
             </button>
             <button
-              type="submit"
+              type="reset"
               className="mt-2 w-full bg-blue-600 text-white px-4 py-3 rounded-lg text-xl font-bold"
-              onClick={() => {
-                
+              onClick={(e) => {
+                e.preventDefault();
                 setAmount(""); // Reset 'amount' to an empty string
                 setConvertedAmount(""); // Reset 'convertedAmount' to an empty string
                 setFrom("usd")
                 setTo("pkr")
-                
               }}
             >
               Reset
