@@ -41,8 +41,8 @@
  2. Select your framework like Vite & Create a Vite Project.
  3. Run the following command in terminal:
  ``` bash
-  1. npm install -D tailwindcss postcss autoprefixer
-  2. npx tailwindcss init -p
+   npm install -D tailwindcss postcss autoprefixer
+   npx tailwindcss init -p
  ``` 
  4. Open the postcss.config.js file and change the property of  <br>content: [
     "./index.html",
@@ -71,3 +71,6 @@ export default function App() {
 ```
 
 # 4. Background Changer with React
+
+
+# 5. Password Generator with React
