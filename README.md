@@ -74,3 +74,5 @@ export default function App() {
 
 
 # 5. Password Generator with React
+# 6. Currency Convertor with React
+
