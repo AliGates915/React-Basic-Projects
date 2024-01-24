@@ -72,7 +72,11 @@ export default function App() {
 
 # 4. Background Changer with React
 
-
 # 5. Password Generator with React
+
 # 6. Currency Convertor with React
+
+# 7. Context API with React
+
+# 8. Theme Switcher with React
 
