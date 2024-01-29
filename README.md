@@ -79,4 +79,5 @@ export default function App() {
 # 7. Context API with React
 
 # 8. Theme Switcher with React
+# 9. Redux Toolkit
 
