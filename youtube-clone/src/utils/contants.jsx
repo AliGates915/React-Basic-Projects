@@ -1,6 +1,5 @@
 import React from "react";
-
-import { AiFillHome, AiOutlineFlag } from "react-icons/ai";
+import { AiFillHome, AiOutlineFlag } from 'react-icons/ai';
 import { MdLocalFireDepartment, MdLiveTv } from "react-icons/md";
 import { CgMusicNote } from "react-icons/cg";
 import { FiFilm } from "react-icons/fi";
@@ -21,10 +20,10 @@ export const categories = [
     { name: "Sports", icon: <GiDiamondTrophy />, type: "category" },
     { name: "Learning", icon: <RiLightbulbLine />, type: "category" },
     {
-        name: "Fashion & beauty",
+        name: "Fashion & Beauty",
         icon: <GiEclipse />,
         type: "category",
-        divider: true,
+        divider: 'true',
     },
     { name: "Settings", icon: <FiSettings />, type: "menu" },
     { name: "Report History", icon: <AiOutlineFlag />, type: "menu" },

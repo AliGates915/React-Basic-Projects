@@ -74,29 +74,37 @@ const Header = () => {
                         placeholder="Search"
                         value={searchQuery}
                     />
-                </div>
+                    {searchQuery && (
+                      <CgClose
+                        className="md:w-[30px] h-8 w-[24px] md:h-10 text-white cursor-pointer"
+                        onClick={() => setSearchQuery('')}
+                      />
+                    )}
+                  </div>
+                
                 <button
                     className="w-[40px] md:w-[60px] h-8 md:h-10 flex items-center justify-center border border-l-0 border-[#303030] rounded-r-3xl bg-white/[0.1]"
                     onClick={() => searchQueryHandler("searchButton")}
                 >
-                    <IoSearch className="text-white text-xl" />
+                    <IoSearch className=" text-white text-xl" />
                 </button>
             </div>
-            <div className="flex items-center">
-                <div className="hidden md:flex">
-                    <div className="flex items-center justify-center h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]">
+            <div className="flex items-center gap-3">
+                <div className="flex ml-2 ">
+                    <div className="flex items-center justify-center h-10 w-10 
+                    rounded-full hover:bg-[#303030]/[0.6]">
                         <RiVideoAddLine className="text-white text-xl cursor-pointer" />
                     </div>
-                    <div className="flex items-center justify-center ml-2 h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]">
+                    <div className="flex items-center justify-center h-10 w-10 
+                    rounded-full hover:bg-[#303030]/[0.6]">
                         <FiBell className="text-white text-xl cursor-pointer" />
                     </div>
                 </div>
                 <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
-                    <img src="https://xsgames.co/randomusers/assets/avatars/female/67.jpg" />
+                    <img src="https://xsgames.co/randomusers/assets/avatars/male/67.jpg" />
                 </div>
             </div> 
         </div>
-
     );
 };
 
