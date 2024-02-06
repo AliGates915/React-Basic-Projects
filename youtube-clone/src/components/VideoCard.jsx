@@ -3,7 +3,7 @@ import { abbreviateNumber } from "js-abbreviation-number";
 import { Link } from "react-router-dom";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 
-import VideoLength from "../shared/videoLength";
+import VideoLength from "../shared/VideoLength";
 
 const VideoCard = ({ video }) => {
     return (
@@ -26,7 +26,7 @@ const VideoCard = ({ video }) => {
                                 src={video?.author?.avatar[0]?.url}
                             />
                         </div>
-                    </div>
+                    </div>0
                     <div className="flex flex-col ml-3 overflow-hidden">
                         <span className="text-sm font-bold line-clamp-2">
                             {video?.title}
