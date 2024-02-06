@@ -1,25 +1,24 @@
-import Gates from "./vite"
+function Button({ text = "Click Me!", color = "blue", fontSize = 12, handleClick }) {
+  const buttonStyle = {
+    color: color,
+    fontSize: fontSize + "px"
+  };
 
-function App() {
   return (
-    <>
-    <Gates/>
-    <h1>ALi </h1>
-    <h3>Gates....</h3>
-    </>
-  )
+    <button onClick={() => handleClick('https://www.theodinproject.com')} style={buttonStyle}>
+      {text}
+    </button>
+  );
 }
-export default App
 
+export default function App() {
+  const handleButtonClick = (url) => {
+    window.location.href = url;
+  };
 
-
-
-
-
-
-
-
-
-
-
-
+  return (
+    <div>
+      <Button handleClick={handleButtonClick} />
+    </div>
+  );
+}
