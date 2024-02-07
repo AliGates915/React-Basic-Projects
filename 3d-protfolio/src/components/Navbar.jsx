@@ -29,7 +29,7 @@ const Navbar = () => {
            {/*  for spacing  */}
           &nbsp;&nbsp;
         <p className='text-white text-[18px] 
-          font-bold cursor-pointer flex md:flex-col'>Ali Gate$ 
+          font-bold cursor-pointer flex'>Ali Gate$ 
           &nbsp;
           <span className='md:block
            hidden'> 
