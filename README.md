@@ -1,83 +1,8 @@
-Cla # React Basic Start-up
- ## Install vite
-``` bash
-  npm create vite@latest
- ```
-*  Package name: ... 01vite-rect
-*  Select a framework: » React
-*  Select a variant: » JavaScript
+# React + Vite
 
-#### 1. Open the package Name Directory like as Package Name :  01vite-rect
-``` bash
-  cd .\01Vite-Rect\
- ```
-#### 2. Now Run the Command.
-``` bash
-  npm install
- ```
- #### 3. Now Open the package.json file and and see 'Scripts' for running project.
-``` bash
-  npm run dev
- ```
- #### 4. Open the localhost. 
- ➜  Local:   http://localhost:5173/
- 
- ## Important Files
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
- ➜  index.html <br>
- ➜  src/App.jsx <br>
- ➜  src/main.jsx
- 
+Currently, two official plugins are available:
 
- ### App.jsx is Main File where we can write our code.
-
- ### main.jsx is Entry point of our application, it will render our component to HTML tag
-
- # 2.Hooks in React 
- ![Hooks in React](https://github.com/AliGates915/React-Basic-Projects/assets/128673394/28246b78-f007-4fc8-8466-292de28444e8)
-
-# 3.Tailwand and Props
- 1. Install tailwand-css with official website: https://tailwindcss.com/docs/installation/framework-guides
- 2. Select your framework like Vite & Create a Vite Project.
- 3. Run the following command in terminal:
- ``` bash
-   npm install -D tailwindcss postcss autoprefixer
-   npx tailwindcss init -p
- ``` 
- 4. Open the postcss.config.js file and change the property of  <br>content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],<br> 
-  instead of content[ ],
-  5. Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
-  ``` bash
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  ```
-6. Run your build process 
-``` bash 
-  npm run dev. 
-``` 
-7. Start using Tailwind’s utility classes to style your content.
-``` javascript
-export default function App() {
-  return (
-    <h1 className="font-bold bg-green-600 text-white">
-      Hello world!
-    </h1>
-  )
-}
-```
-
-# 4. Background Changer with React
-
-# 5. Password Generator with React
-
-# 6. Currency Convertor with React
-
-# 7. Context API with React
-
-# 8. Theme Switcher with React
-# 9. Redux Toolkit
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
